@@ -1,0 +1,51 @@
+.vertical-navbar {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+   
+    
+  }
+  
+  .vertical-navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .vertical-navbar ul li {
+    margin: 10px 0;
+  }
+  
+  .vertical-navbar ul li a {
+    text-decoration: none;
+    color: #d400ff;
+    font-size: 1.2rem;
+  }
+  
+  .vertical-navbar ul li a:hover {
+    color: #28C8B8;
+  }
+  
+  @media (max-width: 768px) {
+    .vertical-navbar {
+      width: 150px;
+    }
+  
+    .vertical-navbar ul li a {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .vertical-navbar {
+      width: 120px;
+    }
+  
+    .vertical-navbar ul li a {
+      font-size: 0.9rem;
+    }
+  }
+  
